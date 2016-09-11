@@ -1,0 +1,23 @@
+{
+    "name": "fahribaharudin/try-hard-php-boilerplate",
+    "description": "A non framework PHP project boilerplate build on top of symfony components",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fahri Baharudin",
+            "email": "fahrybaharudin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "filp/whoops": "^2.1",
+        "symfony/http-kernel": "^3.1",
+        "symfony/routing": "^3.1",
+        "twig/twig": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
